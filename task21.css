@@ -1,0 +1,824 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.index-page{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #F6F7FB;
+}
+/*顶部盒子*/
+.topbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    background: rgba(255,255,255,.8);
+}
+.topboxcenter{
+    width: 1260px;
+    height: 100px;
+}
+.logebox{
+    display: flex;
+    align-items: center;
+    float: left;
+    width: 270px;
+    height: 100px;
+}
+.libox{
+    float: left;
+    width: 870px;
+    height: 100px;
+    color: #818181;
+}
+.lip{
+    float: left;
+    height: 100px;
+    line-height: 100px;
+}
+.lip:hover{
+    cursor: pointer;
+    color: #cf0f32;
+}
+.lispan{
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 20px;
+}
+.topopen{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 120px;
+    background: #cf1132;
+    float: left;
+}
+.topopen:hover{
+    cursor: pointer;
+}
+.topopenbg{
+    position: absolute;
+    left: 43px;
+    top: 38px;
+    width: 34px;
+    height: 34px;
+    background: url("./picture/一图多用.png");
+
+}
+.topopenp{
+    color: #fff;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+/*下拉菜单盒子*/
+.drop{
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 322px;
+    z-index: 2;
+    width: 1260px;
+    height: 847px;
+    background: #282B2D;
+}
+.droptitle{
+    font-size: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    margin: 40px 40px 25px;
+}
+.droptitle2{
+    width: 445px;
+    height: 50px;
+    float: left;
+    background: #35373a;
+}
+.droptitle2li{
+    border-left: 4px #dd1136 solid;
+    height: 16px;
+    line-height: 16px;
+    text-indent: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #dd1136;
+    margin: 17px 0 17px 40px;
+}
+.droptitle3{
+    float: left;
+    width: 815px;
+    height: 50px;
+    background: #35373a;
+    box-sizing: border-box;
+    border-left: 1px #454545 solid;
+}
+.droptitle3li{
+    border-left: 4px #dd1136 solid;
+    height: 16px;
+    line-height: 16px;
+    text-indent: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #dd1136;
+    margin: 17px 0;
+}
+.droptitle4{
+    width: 300px;
+    float: left;
+}
+.droptitle4li{
+    width: 300px;
+    font-size: 14px;
+    color: #6b6b6c;
+    font-weight: 700;
+    text-indent: 40px;
+    margin: 25px 0 20px;
+    float: left;
+}
+.droptitle4ul{
+    float: left;
+    margin: 0 0 0 40px;
+}
+.droptitle4ul li{
+    width: 130px;
+    list-style-type:none;
+    float:left;
+    color: #c3c3c3;
+    font-size: 14px;
+    line-height: 28px;
+}
+.droptitle5{
+    width: 150px;
+    border-left: 1px solid #454545;
+    float: left;
+}
+.droptitle5li{
+    width: 150px;
+    font-size: 14px;
+    color: #6b6b6c;
+    font-weight: 700;
+    text-indent: 40px;
+    margin: 25px 0 20px;
+    float: left;
+}
+.droptitle5ul{
+    float: left;
+    margin: 0 0 0 40px;
+}
+.droptitle5ul li{
+    width: 130px;
+    list-style-type:none;
+    float:left;
+    color: #c3c3c3;
+    font-size: 14px;
+    line-height: 28px;
+}
+.droptitle6{
+    width: 177px;
+    border-left: 1px solid #454545;
+    float: left;
+}
+.droptitle6li{
+    width: 177px;
+    font-size: 14px;
+    color: #6b6b6c;
+    font-weight: 700;
+    text-indent: 40px;
+    margin: 25px 0 20px;
+    float: left;
+}
+.droptitle6ul{
+    float: left;
+    margin: 0 0 0 40px;
+}
+.droptitle6ul li{
+    width: 130px;
+    list-style-type:none;
+    float:left;
+    color: #c3c3c3;
+    font-size: 14px;
+    line-height: 28px;
+}
+.droptitle7{
+    width: 592px;
+    border-left: 1px solid #454545;
+    float: left;
+}
+.droptitle7li{
+    width: 592px;
+    font-size: 14px;
+    color: #6b6b6c;
+    font-weight: 700;
+    text-indent: 40px;
+    margin: 25px 0 20px;
+    float: left;
+}
+.droptitle7ul{
+    float: left;
+    margin: 0 0 0 40px;
+}
+.droptitle7ul li{
+    width: 130px;
+    list-style-type:none;
+    float:left;
+    color: #c3c3c3;
+    font-size: 14px;
+    line-height: 28px;
+}
+.dropbottom{
+    width: 100%;
+    height: 60px;
+    margin: 700px 0 0 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropbottomli{
+    width: 56px;
+    height: 14px;
+    background: url("./picture/一图多用.png");
+    background-position: 0px -34px;
+    background-repeat: no-repeat;
+}
+.dropbottomli:hover{
+    cursor: pointer;
+    background-position: 0px -48px;
+}
+/*中间背景盒子*/
+.centerbg{
+
+}
+.centerboxallbg{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 970px;
+}
+.leftarrow{
+    position: absolute;
+    top: 500px;
+    left: 0;
+    width:45px;
+    height: 80px;
+    background: #CF1132;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+}
+.rightarrow{
+    position: absolute;
+    top: 500px;
+    right: 0;
+    width:45px;
+    height: 80px;
+    background: #CF1132;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    cursor: pointer;
+}
+.rightarrow:hover, .leftarrow:hover{
+    background: #3C3D3F;
+}
+.dots{
+    position: absolute;
+    top: 550px;
+    left: 75%;
+    width: 150px;
+    height: 20px;
+}/*小点盒子*/
+.dot{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    background: url("./picture/一图多用2.png");
+    background-position: 30px 0 ;
+}
+.dot:hover, .doton{
+    background-position:0 20px;
+    cursor: pointer;
+}
+.centerboxbg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition:opacity 1.5s;
+}/*整个背景盒子*/
+.centerboxbgon{
+    opacity: 1;
+}
+.centerbgimg{
+    height: 100%;
+    width: 100%;
+}
+.centerboxtext{
+    position: absolute;
+    top: 280px;
+    left: 370px;
+    width: 450px;
+    color: #fff;
+}
+.centerboxp1{
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: bold;
+}
+.centerboxp2{
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 700;
+    margin:0 0 10px;
+    border-bottom: 1px solid #CF1132;
+}
+.centerboxp3{
+    width:452px;
+    height:72px;
+    font-size: 14px;
+    margin:15px 0 30px;
+    line-height: 24px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.centerboxp4{
+
+}
+.specialcolor {
+    color: #000;
+}
+.specialposition{
+    position: absolute;
+    top: 280px;
+    left: 1090px;
+}
+/*中间内容盒子*/
+.centerboxs{
+    position: absolute;
+    top: 590px;
+    left: 330px;
+    width: 1260px;
+    height: 350px;
+    z-index: 1;
+}
+.centerbox1{
+    float: left;
+    width: 210px;
+    height: 350px;
+}
+.centerbox1bar{
+    display: flex;
+    align-items: center;
+    width: 210px;
+    height: 70px;
+    background: #272A2C;
+    border-left:5px solid #272A2C;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.centerbox1bar:hover, .centerbox1baron{
+    background: #000;
+    cursor: pointer;
+    border-left:5px solid red ;
+}
+.icon{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0 15px;
+}
+.centerbox1barul{
+    float: left;
+    list-style-type: none;
+}
+.centerbox1barli1{
+    width: 129px;
+    font-size: 14px;
+    color:#c3c3c3;
+    margin:0 0 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+.centerbox1barli2{
+    width: 129px;
+    font-size: 12px;
+    color:#5c6266;
+    margin:0 0 3px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+}
+.centerbox2{
+    float: left;
+    width: 510px;
+    height: 350px;
+}
+.centerbox2img{
+    display: none;
+}
+.centerbox2imgon{
+    display: flex;
+}
+.centerbox3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 540px;
+    height: 350px;
+    background: #282B2D;
+}
+.centerbox3all{
+    width: 460px;
+    height: 310px;
+}
+.centerbox3title{
+    font-size: 24px;
+    padding-bottom: 14px;
+    font-weight: 700;
+    color: #cf0f32;
+    border-bottom: 1px #3d4041 solid;
+}
+.centerbox3nr{
+
+}
+.centerbox3ultitle{
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 10px 0 ;
+}
+.centerbox3ultitle img{
+    width: 45px;
+    height: 25px;
+    float: left;
+    margin: 0 10px 0 0;
+}
+.centerbox3ultitle p{
+    float: left;
+}
+.centerbox3nr ul{
+    list-style-type: none;
+}
+.centerbox3nr ul li{
+    width: 400px;
+    height: 31px;
+    line-height: 31px;
+    color: #c3c3c3;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    background: url(./picture/小方块.png) 0 center no-repeat;
+    text-indent: 22px;/*缩进*/
+    float: left;
+}
+.centerbox3nr ul li:hover{
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+.centerbox3nr ul span{
+    float: right;
+    font-size: 14px;
+    color: #727272;
+}
+/*中间的推荐盒子*/
+.recommend{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 170px;
+
+}
+.reboxall{
+    display: flex;
+    justify-content: space-between;
+    width: 1270px;
+    height: 150px;
+}
+.rebox{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 130px;
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3s;
+}
+.rebox:hover .act-line{
+    width: 50px;
+}
+.reboximg{
+    width: 300px;
+    height: 130px;
+}
+.act-line{
+    position: absolute;
+    top: 19px;
+    left: 16px;
+    height: 2px;
+    width: 20px;
+    background: #ea4040;
+    transition: 0.5s;
+}
+/*热门游戏，游戏推荐*/
+.game{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 810px;
+}
+/*热门游戏*/
+.hotgameall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 960px;
+    height: 760px;
+}
+.hotgame{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 318px;
+    font-size: 0;
+    background: #ffffff;
+    overflow: hidden;
+}
+.htgameimg:hover+.activeimg{
+    opacity: 1;
+    top: 0;
+}
+.activeimg:hover{
+    opacity: 1;
+    top: 0;
+}
+
+
+.hgtitle{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    height: 22px;
+}
+.hgtitle1{
+    line-height: 22px;
+    font-size: 22px;
+    color: #272a2c;
+    text-indent: 15px;
+    border-left: 4px #cf1132 solid;
+}
+.hgtitle2{
+    display: flex;
+}
+.hgtitle2text{
+    font-size: 16px;
+    color: #272a2c;
+    height: 20px;
+    line-height: 20px;
+}
+.hgtitle2bg{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 21px;
+    height: 17px;
+    margin-left: 10px;
+    background: url("./picture/一图多用2.png") -20px -37px;
+}
+.hotgame img{
+    width: 300px;
+    height: 170px;
+    cursor: pointer;
+}
+.activeimg{
+    position: absolute;
+    top: -170px;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.hotgame1{
+    margin: 13px 20px 2px;
+    color: #383838;
+    font-size: 20px;
+    font-weight: 700;
+}
+.hotgame2{
+    margin: 0 16px 13px;
+    font-size: 14px;
+    color: #b1b1b1;
+    line-height: 22px;
+    padding: 0 2px;
+    height: 45px;
+    overflow: hidden;
+}
+.hotgame3{
+    width: 88px;
+    height: 30px;
+    font-size: 12px;
+    margin: 0 0 0 200px;
+    color: #9f9f9f;
+    cursor: pointer;
+}
+.hotgame3:hover{
+    color: #c21d35;
+}
+
+
+/*新游推荐*/
+.newgameall{
+    margin: 0 0 0 20px;
+    width: 298px;
+    height: 700px;
+}
+.ngtitle{
+    line-height: 22px;
+    font-size: 22px;
+    color: #272a2c;
+    text-indent: 15px;
+    border-left: 4px #cf1132 solid;
+    margin-bottom: 30px;
+}
+.newgame{
+    width: 250px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 42px 0 26px;
+    background: #ffffff;
+    border: 1px #EDEDED solid;
+    border-bottom:none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.newgame:hover{
+    background: #F0F2F7;
+}
+.newgame:hover .nwgmbox3{
+    background: url("./picture/red_gt_h_9a26a75.png") no-repeat;
+}
+.newgame img{
+    width: 68px;
+    height: 68px;
+    margin: 0 22px 0 0;
+}
+.nwgmbox2a{
+    width: 140px;
+    font-size: 16px;
+    color: #555;
+    line-height: 22px;
+    height: 22px;
+    overflow: hidden;
+    font-weight: 700;
+}
+.nwgmbox2b{
+    width: 140px;
+    font-size: 14px;
+    color: #999;
+    line-height: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.nwgmbox2c{
+    width: 140px;
+    font-size: 12px;
+    color: #999;
+    line-height: 24px;
+    height: 24px;
+    overflow: hidden;
+}
+.nwgmbox2c span{
+    width: 13px;
+    height: 13px;
+    font-size: 13px;
+    background: url("./picture/一图多用2.png") -37px -20px;
+}
+.nwgmbox3{
+    width: 15px;
+    height: 28px;
+    margin: 15px 0 0 0;
+    background: url("./picture/gt_ba10da4.png") no-repeat;
+}
+.gamelistbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+    height: 800px;
+}
+.gamelistall{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 1260px;
+    height: 440px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.gamelisttitle{
+    display: flex;
+    width: 1260px;
+    height: 66px;
+}
+.gamelisttitle1{
+    width: 445px;
+    padding: 25px 0;
+    background: #fbfbfb;
+    border-left: 1px #eee solid;
+    box-sizing: border-box;
+}
+.gamelisttitle1 div, .gamelisttitle2 div{
+    border-left: 4px #dd1136 solid;
+    height: 16px;
+    background: #fbfbfb;
+    line-height: 16px;
+    text-indent: 36px;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+}
+.gamelisttitle2{
+    width: 815px;
+    padding: 25px 0;
+    background: #fbfbfb;
+    border-left: 1px #eee solid;
+    /*border: 1px #000 solid;*/
+    /*box-sizing: border-box;*/
+}
+.gamebox1{
+    width: 296px;
+    border-left: 1px #eee solid;
+}
+.gamebox2, .gamebox3{
+    width: 147px;
+    border-left: 1px #eee solid;
+}
+.gamebox4{
+    width: 665px;
+    border-left: 1px #eee solid;
+    border-right: 1px #eee solid;
+}
+.gamenox1title{
+    font-size: 14px;
+    color: #c21d35;
+    text-indent: 38px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.gamebox1 ul, .gamebox2 ul, .gamebox3 ul ,.gamebox4 ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 0 40px;
+}
+.gamebox1 ul li, .gamebox2 ul li, .gamebox3 ul li, .gamebox4 ul li{
+    width: 127px;
+    list-style-type: none;
+    float: left;
+    color: #666;
+    font-size: 14px;
+    line-height: 28px;
+}
+.gamelistbottombox{
+    width: 1260px;
+    display: flex;
+    justify-content: center;
+}
+.gamelistbottom{
+    margin: 40px 0 0 0;
+    width: 120px;
+    height: 38px;
+    font-size: 14px;
+    color: #6d6d6d;
+    background: #f1f1f1;
+    line-height: 38px;
+    text-align: center;
+    cursor: pointer;
+}
+.gamelistbottom:hover {
+    background: #dbdcdf;
+}
+
